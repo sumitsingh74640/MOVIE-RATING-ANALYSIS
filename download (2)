@@ -1,0 +1,12 @@
+from src.loader import load_movies, load_ratings
+from src import config as C
+
+def test_load_movies_schema():
+    df = load_movies(C.MOVIES_CSV)
+    assert {"movieId","title","genres"} <= set(df.columns)
+    assert len(df) > 0
+
+def test_load_ratings_schema():
+    df = load_ratings(C.RATINGS_CSV)
+    assert {"userId","movieId","rating","timestamp"} <= set(df.columns)
+    assert df["rating"].between(0.5, 5.0).all()

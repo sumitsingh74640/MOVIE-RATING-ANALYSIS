@@ -1,0 +1,6 @@
+# Roadmap
+- [ ] Full MovieLens 25M ingestion via `make data`
+- [ ] Collaborative-filtering recommender
+- [ ] Streamlit dashboard
+- [ ] Docker image
+- [ ] Parquet output for processed data

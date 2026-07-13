@@ -1,0 +1,19 @@
+# Changelog
+
+## 1.0.0 - Initial release
+- Loader / cleaner / analyzer / visualizer / reporter modules
+- Bayesian weighted rating
+- HTML + JSON report
+- Unit tests + CI
+
+## 0.4.0 - Reporting
+- Jinja2 HTML template with KPIs and top-N table
+
+## 0.3.0 - Analysis
+- Genre stats, ratings-over-time trend
+
+## 0.2.0 - Cleaning
+- Deduplication, timestamp coercion, genre explode
+
+## 0.1.0 - Scaffold
+- Repository skeleton and sample dataset

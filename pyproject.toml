@@ -1,0 +1,14 @@
+# Contributing
+Thanks for your interest! Please open an issue before submitting large PRs.
+
+## Dev setup
+```bash
+pip install -r requirements.txt
+pytest -q
+ruff check src tests
+```
+
+## Style
+- Type hints on public functions
+- One module, one responsibility
+- Tests for every new analyzer/cleaner function

@@ -1,0 +1,3 @@
+# Project Structure
+See README for the tree. Each module in `src/` owns one pipeline stage:
+loader -> cleaner -> analyzer -> visualizer -> reporter, orchestrated by `main.py`.
